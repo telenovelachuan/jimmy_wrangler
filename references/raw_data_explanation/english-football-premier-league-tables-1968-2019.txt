@@ -1,0 +1,29 @@
+[Dataset updated]
+Mar 19 2019
+
+[Authors]
+Oliver Bird
+
+[Available download formats from providers]
+csv (84646 bytes), zip (15380 bytes)
+
+[# of rows]
+1089
+
+[# of columns]
+12
+
+[Columns]
+season: season year
+name: premier league season name
+pos: finish position
+team: team name
+p: game played
+w: game won
+d: game drawn
+l: game lose
+f: goal for
+a: goal against
+gd: goal difference
+points: total points earned
+

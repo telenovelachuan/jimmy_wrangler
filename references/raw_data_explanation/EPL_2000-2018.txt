@@ -1,0 +1,42 @@
+[Dataset updated]
+Feb 14 2019
+
+[Authors]
+Devin Haria
+
+[Description]
+The dataset consists of statistics for all the English Premier League matches between 2000 & 2018
+
+[Available download formats from providers]
+zip (114506 bytes)
+
+[# of rows]
+6461
+
+[# of columns]
+23
+
+[Columns]
+DateMatch Date (dd/mm/yy)
+HomeTeamHome Team
+AwayTeamAway Team
+FTHGFull Time Home Team Goals
+FTAGFull Time Away Team Goals
+FTRFull Time Result (H=Home Win, D=Draw, A=Away Win)
+HTHGHalf Time Home Team Goals
+HTAGHalf Time Away Team Goals
+HTRHalf Time Result (H=Home Win, D=Draw, A=Away Win)
+RefereeMatch Referee
+HSHome Team Shots
+ASAway Team Shots
+HSTHome Team Shots on Target
+ASTAway Team Shots on Target
+HFHome Team Fouls Committed
+AFAway Team Fouls Committed
+HCHome Team Corners
+ACAway Team Corners
+HYHome Team Yellow Cards
+AYAway Team Yellow Cards
+HRHome Team Red Cards
+ARAway Team Red Cards
+SeasonSeason (00-01 means the season 2000-2001 and so on)
