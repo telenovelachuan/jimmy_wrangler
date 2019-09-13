@@ -22,7 +22,6 @@ Raw EPL tables dataset:
 3  2018/2019  Premier League 2018-2019    4  ...  39  28      71
 4  2018/2019  Premier League 2018-2019    5  ...  51  22      70
 
-Join two datasets to append final finish position info for team stats
 '''
 
 distinct_team_name_in_EPL_table = raw_EPL_tables['team'].unique()
