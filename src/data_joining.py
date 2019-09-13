@@ -29,7 +29,6 @@ for i, row in interim_match_data.iterrows():
     home_team_name = row.HomeTeam
     away_team_name = row.AwayTeam
     year1 = row.year if row.month > 7 else row.year - 1
-    print "finding for home:"+home_team_name+", away:"+away_team_name +", year1:"+str(year1)
     home_final_position = interim_EPL_tables[(interim_EPL_tables.team == home_team_name) & (interim_EPL_tables.year1 == year1)].pos.item()
     away_final_position = interim_EPL_tables[(interim_EPL_tables.team == away_team_name) & (interim_EPL_tables.year1 == year1)].pos.item()
     home_positions.append(home_final_position)
