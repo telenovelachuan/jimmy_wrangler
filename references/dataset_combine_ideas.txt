@@ -1,1 +1,0 @@
-join the two raw datasets by season and team name, so that in team stats dataset, an additional information of the final finish position could be added for each team on each season to relate teams' performing stats with their final position.

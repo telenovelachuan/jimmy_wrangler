@@ -1,0 +1,12 @@
+[Goal]
+join the two raw datasets by season name and team name
+
+[Why]
+so that in match stats dataset, an additional information of the final finish position could be added for each team on each season to relate teams' stats with their final performance
+
+[How]
+1. extract season year1 & year2(e.g. season 2016/2017 --> year1: 2016, year2: 2017) using excel.
+2. replace team name with full team name.
+In match stats dataset, team names are in short. The SequenceMatcher library is used to find their full name from EPL table dataset via nearest string distance.
+3. joining.
+Join the two datasets where team names are the same, and season year1 & year2 are the same
